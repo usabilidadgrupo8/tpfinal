@@ -190,3 +190,96 @@ button {
 .card-light li {
     margin-bottom: 13px;
 }
+
+.pregunta-h3 {
+>>>>>>> d0505fe37350220e8839ed24df18f600faef038f
+    font-size: 18pt;
+    line-height: 25px;
+}
+
+.violet {
+    background-color: #554BC8;
+}
+
+.prototype1 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.chat-1 {
+    background-image: url(/img/simulacion/Chat-1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.prototype2 {
+    height: 56px;
+    width: 600px;
+    position: absolute;
+    top: 550px;
+    right: 0px;
+}
+
+.chat-2 {
+    background-image: url(/img/simulacion/Chat-2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.prototype3 {
+    height:104px;
+    width: 600px;
+    position: absolute;
+    top: 56px;
+    right: 0px;
+}
+
+.chat-3 {
+    background-image: url(/img/simulacion/Chat-3.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.prototype4a {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 164px;
+    left: 120px;
+}
+
+
+.chat-4 {
+    background-image: url(/img/simulacion/Chat-4.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-size: 100%;
+    width: 100%;
+    min-height: 1200px;
+}
+
+.prototype5 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 164px;
+    left: 20px;
+}
+
+
+.chat-5 {
+    background-image: url(/img/simulacion/Chat-4.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-size: 100%;
+    width: 100%;
+    min-height: 1200px;
+}
