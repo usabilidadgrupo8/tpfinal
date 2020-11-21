@@ -1,0 +1,164 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+.navbar-white {
+    background-color: white;
+}
+.light-shadow {
+    box-shadow: 0px -5px 15px rgba(128, 128, 128, 0.08);
+}
+.navbar-white .inactive {
+    color: #626B74;
+}
+h4 {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14pt;
+    line-height: 20px;
+}
+h5.bold {
+    font-family: DM Sans;
+    font-weight: bold;
+    font-size: 14pt;
+    line-height: 18pt;
+    text-transform: uppercase;
+}
+h6 {
+    font-size: 16pt;
+}
+
+.icon-nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+nav .active a {
+    color: #554BC8;
+    font-weight: 500;
+}
+.main {
+    background: linear-gradient(180deg, #554BC8 0%, #36369A 100%);
+    border-radius: 0px 0px 10px 10px;
+}
+.white {
+    color: white;
+}
+.btn-search {
+    background-color: #E5E4FF;
+}
+.form-searchbox input, button {
+    border-radius: 10px !important;
+    color: black !important;
+}
+
+.form-searchbox input::placeholder {
+    color: black;
+}
+.title-botonera {
+    font-size: 14pt;
+}
+.btn-asistencia {
+    border: solid 2px #E5E4FF;
+    min-width: 80px;
+}
+.caption-btn-asistencia {
+    font-size: 10pt;
+    font-weight: 500;
+}
+.btn-asistencia img{
+    width: 26px;
+}
+.caption-long {
+    position: 
+}
+.visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.asistencia-reglamento {
+    background: linear-gradient(180deg, #554BC8 0%, #36369A 100%);
+    border-radius: 8px;
+}
+.asistencia-reglamento h3{
+    color: white;
+    font-size: 16pt;
+}
+.asistencia-reglamento a {
+    font-size: 12pt;
+    font-weight: 500;
+}
+.long-bottom {
+    margin-bottom: 85px;
+}
+.breadcrum {
+    text-align: center;
+    border-bottom: solid 1px #C2CAD1;
+}
+.breadcrum h4 {
+    font-size: 14pt;
+    margin: 0;
+    font-weight: 500
+}
+.flecha-izq {
+    width: 10px;
+    float: left;
+    margin-top: 3px;
+}
+.card-emergencia {
+    background: linear-gradient(180deg, #554BC8 0%, #36369A 100%);
+    border-radius: 8px;
+}
+.span-icon {
+    transform: translateY(-3px);
+    width: 40px;
+}
+.card-emergencia h3 {
+    font-size: 14pt;
+}
+.card-emergencia p {
+    font-size: 12pt;
+}
+.btn-white {
+    border: solid 1px white;
+    color: white !important;
+    border-radius: 20px !important;
+    width: 100%;
+    font-weight: 500;
+}
+.btn-white:hover {
+    border: white;
+    background-color: white;
+    color: blueviolet !important;
+    font-weight: 500;
+}
+.phone-icon {
+    width: 20px;
+    transform: translateY(-2px);
+}
+.card-light {
+    background-color: #F5F5F5;
+    color: #1A1A1A;
+    border-radius: 8px;
+}
+.card-light h3 {
+    font-size: 14pt;
+    color: #36369A;
+    font-weight: 700;
+}
+.card-light li {
+    margin-bottom: 13px;
+}
+.pregunta-h4 {
+    font-size: 18pt;
+    line-height: 25px;
+}
+.violet {
+    background-color: #554BC8;
+}
