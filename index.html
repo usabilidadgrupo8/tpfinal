@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <title>TP Final Grupo 8 - Vecinos</title>
+</head>
+
+<body>
+
+    <!--NAVIGATION BAR-->
+    <nav class="fixed-bottom navbar-white py-2 light-shadow">
+        <div class="row text-center mx-2">
+            <div class="col"><a href="#" class="inactive"><img alt="" class="d-block icon-nav" src="img/icons/inicio-nav.svg" />Inicio</a></div>
+            <div class="col active"><a href="#"><img alt="" class="d-block icon-nav" src="img/icons/asistencia-nav.svg" />Asistencia</a></div>
+            <div class="col"><a href="#" class="inactive"><img alt="" class="d-block icon-nav" src="img/icons/chat-nav.svg" />Chat</a></div>
+            <div class="col"><a href="#" class="inactive"><img alt="" class="d-block icon-nav" src="img/icons/perfil-nav.svg" />Perfil</a></div>
+        </div>
+    </nav>
+
+    <div class="container-fluid main py-3">
+        <h1>Edificio Villa Urquiza 2313</h1>
+        <h2>¡Buenos días, Mariana!</h2>
+        <hr>
+        <ul>
+        <p>No hay problemas reportados.</p>
+        <p>Próximo mantenimiento: Fumigación 18/12 a las 15:00</p>
+        </ul>
+    </div>
+    <main class="container">
+        <h2 class="bold my-4">Asistencia al vecino</h2>
+        <button onclick="window.location.href='asistencia.html'; return false;"> Ver todo > </button>
+        <div class="botonera mt-4">
+            <div class="row botonera">
+                <div class="col-3 text-center px-2 mb-3">
+                    <button href="#" class="btn btn-asistencia px-0">
+                        <img src="img/icons/ruidos.svg" class="my-2" alt="">
+                        <p class="mb-0 caption-btn-asistencia">Ruidos</p>
+                    </button>
+                </div>
+                <div class="col-3 text-center px-2 mb-3">
+                    <button href="ascensor1.html" class="btn btn-asistencia px-0">
+                        <img src="img/icons/ascensor.svg" class="my-2" alt="">
+                        <p class="mb-0 caption-btn-asistencia">Ascensor</p>
+                    </button>
+                </div>
+                <div class="col-3 text-center px-2 mb-3">
+                    <button href="#" class="btn btn-asistencia px-0">
+                        <img src="img/icons/sum.svg" class="my-2" alt="">
+                        <p class="mb-0 caption-btn-asistencia">SUM</p>
+                    </button>
+                </div>
+                <div class="col-3 text-center px-2 mb-3">
+                    <button href="#" class="btn btn-asistencia px-0">
+                        <img src="img/icons/humedad.svg" class="my-2" alt="">
+                        <p class="mb-0 caption-btn-asistencia">Humedad</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="botonera mt-4">
+            <h6 class="title-botonera">Seguridad</h6>
+            <div class="row botonera">
+                <div class="col-3 text-center px-2 mb-3">
+                    <button href="#" class="btn btn-asistencia px-0">
+                        <img src="img/icons/robos.svg" class="my-2" alt="">
+                        <p class="mb-0 caption-btn-asistencia">Robos</p>
+                    </button>
+                </div>
+                <div class="col-3 text-center px-2 mb-3">
+                    <button href="#" class="btn btn-asistencia px-0">
+                        <img src="img/icons/extravio.svg" class="my-2" alt="">
+                        <p class="mb-0 caption-btn-asistencia">Extravío</p>
+                    </button>
+                </div>
+                <div class="col-3 text-center px-2 mb-3">
+                    <button href="#" class="btn btn-asistencia px-0">
+                        <img src="img/icons/extra%C3%B1os.svg" class="my-2" alt="">
+                        <p class="mb-0 caption-btn-asistencia">Extraños</p>
+                    </button>
+                </div>
+                <div class="col-3 text-center px-2 mb-3">
+                    <button href="#" class="btn btn-asistencia px-0">
+                        <img src="img/icons/camaras.svg" class="my-2" alt="">
+                        <p class="mb-0 caption-btn-asistencia">Cámaras</p>
+                    </button>
+                </div>
+                <div class="col-3 text-center px-2 mb-3">
+                    <button href="#" class="btn btn-asistencia px-0">
+                        <img src="img/icons/cerradura.svg" class="my-2" alt="">
+                        <p class="mb-0 caption-btn-asistencia">Cerradura</p>
+                    </button>
+                </div>
+                <div class="col-3 text-center px-2 mb-3">
+                    <button href="#" class="btn btn-asistencia px-0">
+                        <img src="img/icons/violencia.svg" class="my-2" alt="">
+                        <p class="mb-0 caption-btn-asistencia">Violencia</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="asistencia-reglamento container long-bottom">
+            <div class="row py-4 px-1">
+                <div class="col-2">
+                    <img src="img/icons/reglamento-white.svg" alt="" width="40px" />
+                </div>
+                <div class="col-10">
+                    <h3 class="white">Reglamento del edificio</h3>
+                    <p class="white">Conocé todas las normas de convivencia estipuladas.</p>
+                    <a href="#" class="white">Acceder</a><span class="ml-2"><img src="img/icons/chevron_right.svg"></span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
