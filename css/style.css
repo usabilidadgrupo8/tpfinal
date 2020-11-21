@@ -10,14 +10,14 @@ body {
 .navbar-white .inactive {
     color: #626B74;
 }
-h4 {
+h1 {
     font-family: DM Sans;
     font-style: normal;
     font-weight: 500;
     font-size: 14pt;
     line-height: 20px;
 }
-h5.bold {
+h2.bold {
     font-family: DM Sans;
     font-weight: bold;
     font-size: 14pt;
@@ -86,7 +86,7 @@ nav .active a {
     background: linear-gradient(180deg, #554BC8 0%, #36369A 100%);
     border-radius: 8px;
 }
-.asistencia-reglamento h3{
+.asistencia-reglamento h2{
     color: white;
     font-size: 16pt;
 }
@@ -162,3 +162,28 @@ nav .active a {
 .violet {
     background-color: #554BC8;
 }
+.btn-short {
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
