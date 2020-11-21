@@ -27,25 +27,30 @@
             </div>
         </header>
         <div class="container-fluid py-3">
-            <h1>Ascensor</h1>
+            <h1 class="h1">Ascensor</h1>
         </div>
         <main class="container">
             <form>
                 <fieldset>
-                    <legend>¿Qué problema querés reportar?</legend>
-                    <input type="radio" name="suciedad" id="suciedad" value="Se encuentra sucio">
+                    <legend class="h5">¿Qué problema querés reportar?</legend>
+                    <input type="radio" name="exampleRadios" id="suciedad" value="opcion1" checked>
                     <label for="suciedad">Se encuentra sucio</label><br>
-                    <input type="radio" name="puerta" id="puerta" value="La puerta no cierra correctamente"> 
+                    <input type="radio" name="exampleRadios" id="puerta" value="opcion2"> 
                     <label for="puerta">La puerta no cierra correctamente</label><br>
-                    <input type="radio" name="desperfecto" id="desperfecto" value="Desperfecto de iluminación">
+                    <input type="radio" name="exampleRadios" id="desperfecto" value="opcion3">
                     <label for="desperfecto">Desperfecto de iluminación</label><br>
-                    <input type="radio" name="botonera" id="botonera" value="La botonera está rota"> 
+                    <input type="radio" name="exampleRadios" id="botonera" value="opcion4"> 
                     <label for="botonera">La botonera está rota</label><br>
-                    <input type="radio" name="bloqueo" id="bloqueo" value="Ascensor bloqueado">
+                    <input type="radio" name="exampleRadios" id="bloqueo" value="opcion5">
                     <label for="bloqueo">Ascensor bloqueado</label><br>
-                    <input type="radio" name="otro" id="otro" value="otro"> 
+                    <input type="radio" name="exampleRadios" id="otro" value="opcion6"> 
                     <label for="otro">Otro</label><br>
                 </fieldset>
+                <div class="form-row">
+                    <label class="col-12 h5 my-3" for="comentario">Añade un comentario acerca del desperfecto (requerido)</label>
+                    <textarea class="col-12 mb-3" id="comentario" placeholder="Escribe tu comentario"></textarea>
+                </div>
+                <button type="submit" class="btn btn-white violet float-right btn-short">Enviar</button>
             </form>
         </main>
 
