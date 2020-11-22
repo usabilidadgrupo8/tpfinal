@@ -163,10 +163,7 @@ button {
     font-weight: 500;
 }
 
-.btn-white:hover {
-    border: white;
-    background-color: white;
-    color: blueviolet !important;
+.btn-white:hover, .btn-white:focus {
     font-weight: 500;
 }
 
@@ -219,6 +216,41 @@ button {
     color: #554BC8 !important;
     font-weight: 700;
 }
+.txt-hidden {
+    font-size: 0;
+}
+.input-focus-white:focus, .btn:focus, .btn.focus {
+    color: #495057;
+    border: solid 1px #ffdb31;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 180, 51, 0.88);
+}
+:focus {
+    outline-offset: 1px;
+    outline-color: #ffc22c;
+}
+.sr-only {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
