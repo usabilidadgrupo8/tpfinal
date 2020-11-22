@@ -21,7 +21,7 @@
         <nav class="fixed-bottom navbar-white py-2 light-shadow">
             <div class="row text-center mx-2">
                 <div class="col"><a href="#" class="inactive"><img alt="" class="d-block icon-nav" src="img/icons/inicio-nav.svg"/>Inicio</a></div>
-                <div class="col active"><a href="#"><img alt="" class="d-block icon-nav" src="img/icons/asistencia-nav.svg"/>Asistencia</a></div>
+                <div class="col active"><a href="#" tabindex="-1"><img alt="" class="d-block icon-nav" src="img/icons/asistencia-nav.svg"/>Asistencia</a></div>
                 <div class="col"><a href="#" class="inactive"><img alt="" class="d-block icon-nav" src="img/icons/chat-nav.svg"/>Chat</a></div>
                 <div class="col"><a href="#" class="inactive"><img alt="" class="d-block icon-nav" src="img/icons/perfil-nav.svg"/>Perfil</a></div>
             </div>
@@ -31,7 +31,7 @@
             <form role='search' action="/" method="get">
                 <div class="form-row form-searchbox mt-4">
                     <div class="col-10">
-                        <label for="busqueda" class="visually-hidden">
+                        <label for="busqueda" class="visually-hidden" tabindex="-1">
                             Búsqueda
                         </label>
                         <input class="form-control mr-sm-2" type="search" placeholder="¿Cómo te podemos ayudar?" aria-label="Search" id="busqueda">
@@ -95,7 +95,7 @@
                 <h3 class="title-botonera">Espacios Comunes</h3>
                 <div class="row botonera">
                     <div class="col-3 text-center px-2 mb-3">
-                        <button onclick="location.href='ascensor1.html'" class="btn btn-asistencia px-0">
+                            <button onclick="location.href='ascensor1.html'" class="btn btn-asistencia px-0">
                             <img src="img/icons/ascensor.svg" class="my-2" alt="">
                             <p class="mb-0 caption-btn-asistencia">Ascensor</p>
                         </button>
