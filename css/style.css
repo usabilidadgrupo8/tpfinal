@@ -239,9 +239,26 @@ button {
     padding: 0;
     position: absolute;
 }
-
-
-
+.pre-descripcion {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #626B74;
+    border-bottom: solid 1px #554BC8;
+}
+.subtitle {
+    font-size: 12pt
+}
+.moved {
+    transform: translateY(-3px)
+}
+.grey-color {
+    color: #5b5b5b;
+}
+.tilde {
+    width: 20px;
+    transform: translateY(-2px);
+    margin-right: 6px;
+}
 
 
 

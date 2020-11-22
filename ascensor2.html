@@ -19,8 +19,8 @@
         <header class="container breadcrum py-2">
             <div class="row">
                 <div class="col-12">
-                    <a href="asistencia.html" class="" alt="volver">
-                        <span><img alt="Volver" src="img/icons/chevron_left_dark.svg" class="flecha-izq"></span>
+                    <a href="ascensor1.html" class="" alt="volver">
+                        <span><span class="sr-only">Volver a la página anterior</span><img alt="" src="img/icons/chevron_left_dark.svg" class="flecha-izq"></span>
                     </a>
                     <h1 class="h5 mb-0">Reportar Problemas</h1>
                 </div>
@@ -33,25 +33,25 @@
             <form>
                 <fieldset>
                     <legend class="h5">¿Qué problema querés reportar?</legend>
-                    <input type="radio" name="exampleRadios" id="suciedad" value="opcion1" checked>
+                    <input type="radio" name="exampleRadios" id="suciedad" value="opcion1" checked required>
                     <label for="suciedad">Se encuentra sucio</label><br>
-                    <input type="radio" name="exampleRadios" id="puerta" value="opcion2"> 
+                    <input type="radio" name="exampleRadios" id="puerta" value="opcion2" required> 
                     <label for="puerta">La puerta no cierra correctamente</label><br>
-                    <input type="radio" name="exampleRadios" id="desperfecto" value="opcion3">
+                    <input type="radio" name="exampleRadios" id="desperfecto" value="opcion3" required>
                     <label for="desperfecto">Desperfecto de iluminación</label><br>
-                    <input type="radio" name="exampleRadios" id="botonera" value="opcion4"> 
+                    <input type="radio" name="exampleRadios" id="botonera" value="opcion4" required> 
                     <label for="botonera">La botonera está rota</label><br>
-                    <input type="radio" name="exampleRadios" id="bloqueo" value="opcion5">
+                    <input type="radio" name="exampleRadios" id="bloqueo" value="opcion5" required>
                     <label for="bloqueo">Ascensor bloqueado</label><br>
-                    <input type="radio" name="exampleRadios" id="otro" value="opcion6"> 
+                    <input type="radio" name="exampleRadios" id="otro" value="opcion6" required> 
                     <label for="otro">Otro</label><br>
                 </fieldset>
                 <div class="form-row">
                     <label class="col-12 h5 my-3" for="comentario">Añade un comentario acerca del desperfecto (requerido)</label>
-                    <textarea class="col-12 mb-3" id="comentario" placeholder="Escribe tu comentario"></textarea>
+                    <textarea class="col-12 mb-3" id="comentario" placeholder="Escribe tu comentario" required></textarea>
                 </div>
+                <button type="submit" onclick="location.href='ascensor3.html'" class="btn btn-white violet float-right btn-short">Enviar</button>
             </form>
-                <button onclick="location.href='ascensor3.html'" class="btn btn-white violet float-right btn-short">Enviar</button>
         </main>
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
