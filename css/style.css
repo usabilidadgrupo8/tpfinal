@@ -199,4 +199,46 @@ button {
 .violet {
     background-color: #554BC8;
 }
+<<<<<<< HEAD
+=======
+.btn-short {
+    width: 50%;
+}
+.card-gradient-bg {
+    background: linear-gradient(180deg, #554BC8 0%, #36369A 100%);
+    border-radius: 8px;
+}
+.btn-bg-white {
+    background-color: white;
+    border-radius: 20px !important;
+    width: 100%;
+}
+.text-violet {
+    color: #554BC8 !important;
+    font-weight: 700;
+}
+.text-violet:active, .text-violet:hover, .text-violet:focus {
+    color: #554BC8 !important;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> parent of 3cb8ab6... Test 5
 
