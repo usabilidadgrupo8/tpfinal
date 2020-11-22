@@ -1,4 +1,4 @@
-.prototype1 {
+.prototype1-a {
     height: 80px;
     width: 80px;
     position: absolute;
@@ -9,23 +9,37 @@
 .chat-1 {
     background-image: url(/img/simulacion/Chat-1.png);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
     background-size: 100%;
+    width: 100%;
+    min-height: 800px; 
 }
 
-.prototype2 {
+.prototype2-a {
     height: 56px;
     width: 600px;
     position: absolute;
-    top: 550px;
+    top: 540px;
     right: 0px;
+}
+
+.prototype2-b {
+    height: 56px;
+    width: 56px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 .chat-2 {
     background-image: url(/img/simulacion/Chat-2.png);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
     background-size: 100%;
+    width: 100%;
+    min-height: 1440px;
 }
 
 .prototype3 {
@@ -43,7 +57,7 @@
     background-size: 100%;
 }
 
-.prototype4a {
+.prototype4-a {
     height: 80px;
     width: 80px;
     position: absolute;
@@ -51,6 +65,13 @@
     left: 120px;
 }
 
+.prototype4-b {
+    height: 56px;
+    width: 200px;
+    position: absolute;
+    top: 960px;
+    left: 200px;
+}
 
 .chat-4 {
     background-image: url(/img/simulacion/Chat-4.png);
@@ -62,7 +83,7 @@
     min-height: 1200px;
 }
 
-.prototype5 {
+.prototype5-a {
     height: 80px;
     width: 80px;
     position: absolute;
@@ -70,13 +91,20 @@
     left: 20px;
 }
 
+.prototype5-b {
+    height: 56px;
+    width: 200px;
+    position: absolute;
+    top: 1160px;
+    left: 200px;
+}
 
 .chat-5 {
-    background-image: url(/img/simulacion/Chat-4.png);
+    background-image: url(/img/simulacion/Chat-5.png);
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
     background-size: 100%;
     width: 100%;
-    min-height: 1200px;
+    min-height: 1250px;
 }
