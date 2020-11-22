@@ -22,7 +22,7 @@ h4 {
     line-height: 20px;
 }
 
-h5.bold {
+h2.bold {
     font-family: DM Sans;
     font-weight: bold;
     font-size: 14pt;
@@ -199,8 +199,6 @@ button {
 .violet {
     background-color: #554BC8;
 }
-<<<<<<< HEAD
-=======
 .btn-short {
     width: 50%;
 }
@@ -240,5 +238,4 @@ button {
 
 
 
->>>>>>> parent of 3cb8ab6... Test 5
 
