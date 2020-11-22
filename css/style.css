@@ -182,11 +182,25 @@ nav .active a {
     color: #554BC8 !important;
     font-weight: 700;
 }
-
-
-
-
-
+.pre-descripcion {
+    color: #626B74;
+    font-size: 12pt;
+    border-bottom: solid 2px #7F7CFF;
+}
+.moved {
+    transform: translateY(-3px);
+}
+.subtitle {
+    font-size: 12pt;
+}
+.grey-color {
+    color: #626B74;
+}
+.tilde {
+    width: 20px;
+    margin-right: 12px;
+    transform: translateY(-3px);
+}
 
 
 
