@@ -22,7 +22,7 @@
         <!--NAVIGATION BAR-->
         <nav class="fixed-bottom navbar-white py-2 light-shadow">
             <div class="row text-center mx-2">
-                <div class="col active"><a href="index.html"><img alt="" class="d-block icon-nav" src="img/icons/inicio-act.svg" />Inicio</a></div>
+                <div class="col active"><a href="index.html" tabindex="-1"><img alt="" class="d-block icon-nav" src="img/icons/inicio-act.svg" />Inicio</a></div>
 
                 <div class="col"><a href="asistencia.html" class="inactive"><img alt="" class="d-block icon-nav" src="img/icons/asistencia-nav-inac.svg" />Asistencia</a></div>
 
@@ -37,7 +37,7 @@
             <h1 class="h5 white">Edificio Villa Urquiza 2313</h1>
             <h2 class="white">¡Buenos días, Mariana!</h2>
             <p class="white">Este es el estado del edificio hoy:</p>
-            <hr class="hr-darkbg">
+            <hr class="hr-darkbg" aria-hidden="true">
             <ul>
                 <li class="white li-card"><span><img src="img/icons/circle_check_outline.svg" alt="" class="tilde"></span>No hay problemas reportados.</li>
                 <li class="white li-card"><span><img src="img/icons/calendar_check.svg" alt="" class="tilde"></span><strong>Próximo mantenimiento:</strong> Fumigación 18 de Diciembre a las 15:00.</li>
@@ -78,55 +78,55 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="bold my-4 float-left low-bottom">Agenda</h2>
-                    <a href="asistencia.html" class="float-right btn-vermas vermas-index">Ver todo<span><img src="img/icons/chevron_right_dark.svg" alt="" class="icon-vermas"/></span></a>
+            <div class="mb-4">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="bold my-4 float-left low-bottom">Agenda</h2>
+                        <a href="asistencia.html" class="float-right btn-vermas vermas-index">Ver todo<span><img src="img/icons/chevron_right_dark.svg" alt="" class="icon-vermas"/></span></a>
+                    </div>
                 </div>
+                <hr aria-hidden="true">
+                <div class="row">
+                    <div class="col-11">
+                        <p class="h5 text-violet" id="head_sum">Reserva SUM</p>
+                        <p class="mb-1">¡Cumple Susana del 5D!</p>
+                        <p>Lunes 17 de Diciembre de 12 a 16 horas.</p>
+                    </div>
+                    <div class="col-1 pt-4">
+                        <a href="#" class="" aria-describedby="head_sum"><img width="10px;" src="img/icons/chevron_right_dark.svg" alt=""><span class="sr-only">Ver más del evento</span></a>
+                    </div>
+                </div>
+                <hr class="m-0 mb-3" aria-hidden="true">
+                <div class="row">
+                    <div class="col-11">
+                        <p class="h5 text-violet" id="head_mantenimiento">Mantenimiento</p>
+                        <p class="mb-1">Fumigación</p>
+                        <p>Martes 18 de Diciembre de 15 a 20 horas.</p>
+                    </div>
+                    <div class="col-1 pt-4">
+                        <a href="#" class="" aria-describedby="head_mantenimiento"><img width="10px;" src="img/icons/chevron_right_dark.svg" alt=""><span class="sr-only">Ver más del evento</span></a>
+                    </div>
+                </div>
+                <hr class="m-0" aria-hidden="true">
             </div>
-            <hr>
-            <div class="row">
-                <div class="col-11">
-                    <p class="h5">Reserva SUM</p>
-                    <p class="mb-1">¡Cumple Susana del 5D!</p>
-                    <p>Lunes 17 de Diciembre de 12 a 16 horas.</p>
-                </div>
-                <div class="col-1 pt-4">
-                    <a onclick="window.location.href='asistencia.html'; return false;" class=""><img width="10px;" src="img/icons/chevron_right_dark.svg" alt=""><span class="sr-only">Ver más del evento</span></a>
-                </div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col-11">
-                    <p class="h5">Mantenimiento</p>
-                    <p class="mb-1">Fumigación</p>
-                    <p>Martes 18 de Diciembre de 15 a 20 horas.</p>
-                </div>
-                <div class="col-1 pt-4">
-                    <a onclick="window.location.href='asistencia.html'; return false;" class=""><img width="10px;" src="img/icons/chevron_right_dark.svg" alt=""><span class="sr-only">Ver más del evento</span></a>
-                </div>
-            </div>
-            <h2>Emergencias</h2>
+            <h2 class="h4">Emergencias</h2>
             <div class="row long-bottom">
                 <div class="col-4 text-center px-2 mb-3">
-                    <button href="#" class="btn btn-asistencia px-0">
+                    <button href="#" class="btn btn-urgencia px-0 text-center">
                         <img src="img/icons/incendio.svg" class="my-2" alt="">
-                        <h3 class="mb-0 caption-btn-asistencia">Incendio</h3>
-                        <p class="mb-0 caption-btn-asistencia">Llamar al 100</p>
+                        <p class="mb-0"><span class="d-block h5 mb-0">Incendio</span>Llamar al 100</p>
                     </button>
                 </div>
                 <div class="col-4 text-center px-2 mb-3">
-                    <button href="ascensor1.html" class="btn btn-asistencia px-0">
+                    <button href="ascensor1.html" class="btn btn-urgencia px-0">
                         <img src="img/icons/urgencias.svg" class="my-2" alt="">
-                        <h3 class="mb-0 caption-btn-asistencia">Urgencia</h3>
-                        <p class="mb-0 caption-btn-asistencia">Llamar al 107</p>
+                        <p class="mb-0"><span class="d-block h5 mb-0">Médica</span>Llamar al 107</p>
                     </button>
                 </div>
                 <div class="col-4 text-center px-2 mb-3">
-                    <button href="#" class="btn btn-asistencia px-0">
+                    <button href="#" class="btn btn-urgencia px-0">
                         <img src="img/icons/robo-rojo.svg" class="my-2" alt="">
-                        <h3 class="mb-0 caption-btn-asistencia">Robo</h3>
-                        <p class="mb-0 caption-btn-asistencia">Llamar al 9110</p>
+                        <p class="mb-0"><span class="d-block h5 mb-0">Robo</span>Llamar al 911</p>
                     </button>
                 </div>
             </div>
