@@ -278,9 +278,22 @@ button {
     font-size: 12pt;
     font-weight: bold
 }
-
-
-
+.hr-darkbg {
+    border-top: solid 0.1px rgba(255, 255, 255, 0.38);
+}
+ul {
+    padding-left: 0px;
+}
+.li-card {
+    list-style: none;
+    text-decoration: none;
+}
+.vermas-index {
+    margin: 24px 0px 0px 0px;
+}
+.low-bottom {
+    margin-bottom: 0px !important;
+}
 
 
 

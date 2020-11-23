@@ -1,119 +1,133 @@
 <!doctype html>
 <html lang="es">
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
-    <title>TP Final Grupo 8 - Vecinos</title>
-</head>
+        <title>TP Final Grupo 8 - Vecinos</title>
+    </head>
 
-<body>
+    <body>
 
-    <!--NAVIGATION BAR-->
-    <nav class="fixed-bottom navbar-white py-2 light-shadow">
-        <div class="row text-center mx-2">
-            <div class="col active"><a href="index.html"><img alt="" class="d-block icon-nav" src="img/icons/inicio-act.svg" />Inicio</a></div>
-            
-            <div class="col"><a href="asistencia.html" class="inactive"><img alt="" class="d-block icon-nav" src="img/icons/asistencia-nav-inac.svg" />Asistencia</a></div>
-            
-            <div class="col"><a href="Chat-1.html"class="inactive"><img alt="" class="d-block icon-nav" src="img/icons/chat-nav.svg" />Chat</a></div>
-            
-            <div class="col"><a href="perfil.html" class="inactive"><img alt="" class="d-block icon-nav" src="img/icons/perfil-nav.svg" />Perfil</a></div>
+        <!--NAVIGATION BAR-->
+        <nav class="fixed-bottom navbar-white py-2 light-shadow">
+            <div class="row text-center mx-2">
+                <div class="col active"><a href="index.html"><img alt="" class="d-block icon-nav" src="img/icons/inicio-act.svg" />Inicio</a></div>
+
+                <div class="col"><a href="asistencia.html" class="inactive"><img alt="" class="d-block icon-nav" src="img/icons/asistencia-nav-inac.svg" />Asistencia</a></div>
+
+                <div class="col"><a href="Chat-1.html"class="inactive"><img alt="" class="d-block icon-nav" src="img/icons/chat-nav.svg" />Chat</a></div>
+
+                <div class="col"><a href="perfil.html" class="inactive"><img alt="" class="d-block icon-nav" src="img/icons/perfil-nav.svg" />Perfil</a></div>
+            </div>
+        </nav>
+
+
+        <div class="container-fluid main py-3">
+            <h1 class="h5 white">Edificio Villa Urquiza 2313</h1>
+            <h2 class="white">¡Buenos días, Mariana!</h2>
+            <p class="white">Este es el estado del edificio hoy:</p>
+            <hr class="hr-darkbg">
+            <ul>
+                <li class="white li-card"><span><img src="img/icons/circle_check_outline.svg" alt="" class="tilde"></span>No hay problemas reportados.</li>
+                <li class="white li-card"><span><img src="img/icons/calendar_check.svg" alt="" class="tilde"></span><strong>Próximo mantenimiento:</strong> Fumigación 18 de Diciembre a las 15:00.</li>
+            </ul>
         </div>
-    </nav>
-
-
-    <div class="container-fluid main py-3">
-        <h1>Edificio Villa Urquiza 2313</h1>
-        <h2>¡Buenos días, Mariana! este es el estado del edificio hoy:</h2>
-        <hr>
-        <ul>
-        <p>No hay problemas reportados.</p>
-        <p>Próximo mantenimiento: Fumigación 18/12 a las 15:00</p>
-        </ul>
-    </div>
-    <main class="container">
-        <h2 class="bold my-4">Asistencia al vecino</h2>
-        <button onclick="window.location.href='asistencia.html'; return false;"> Ver todo > </button>
-        <div class="botonera mt-4">
-            <div class="row botonera">
-                <div class="col-3 text-center px-2 mb-3">
-                    <button href="#" class="btn btn-asistencia px-0">
-                        <img src="img/icons/ruidos.svg" class="my-2" alt="">
-                        <p class="mb-0 caption-btn-asistencia">Ruidos</p>
-                    </button>
-                </div>
-                <div class="col-3 text-center px-2 mb-3">
-                    <button href="ascensor1.html" class="btn btn-asistencia px-0">
-                        <img src="img/icons/ascensor.svg" class="my-2" alt="">
-                        <p class="mb-0 caption-btn-asistencia">Ascensor</p>
-                    </button>
-                </div>
-                <div class="col-3 text-center px-2 mb-3">
-                    <button href="#" class="btn btn-asistencia px-0">
-                        <img src="img/icons/sum.svg" class="my-2" alt="">
-                        <p class="mb-0 caption-btn-asistencia">SUM</p>
-                    </button>
-                </div>
-                <div class="col-3 text-center px-2 mb-3">
-                    <button href="#" class="btn btn-asistencia px-0">
-                        <img src="img/icons/humedad.svg" class="my-2" alt="">
-                        <p class="mb-0 caption-btn-asistencia">Humedad</p>
-                    </button>
+        <main class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="bold my-4 float-left low-bottom">Asistencia al vecino</h2>
+                    <a href="asistencia.html" class="float-right btn-vermas vermas-index">Ver todo<span><img src="img/icons/chevron_right_dark.svg" alt="" class="icon-vermas"/></span></a>
                 </div>
             </div>
-        </div>
-        
-        <h2 class="bold my-4">Agenda</h2>
-        <button onclick="window.location.href='asistencia.html'; return false;"> Ver todo > </button>
-        <hr>
-        <p>Reserva SUM</p>
-        <p>¡Cumple Susana del 5D!</p>
-        <p>Lunes 17/12 • 12-16 hs</p>
-        <button onclick="window.location.href='asistencia.html'; return false;" aria-label="Ver más del evento"> > </button>
-        <hr>
-        <p>Mantenimiento</p>
-        <p>Fumigación</p>
-        <p>Martes 18/12 • 15-20 hs</p>
-        <button onclick="window.location.href='asistencia.html'; return false;" aria-label="Ver más del evento"> > </button>
-        <hr>
-        
-        <h2>Emergencias</h2>
-        <div class="col-3 text-center px-2 mb-3">
-                    <button href="#" class="btn btn-asistencia px-0">
-                        <img src="img/icons/ruidos.svg" class="my-2" alt="">
-                        <h3 class="mb-0 caption-btn-asistencia">Incendio</h3>
-                        <p class="mb-0 caption-btn-asistencia">Llamar al 100</p>
-                    </button>
+            <div class="botonera mt-4">
+                <div class="row botonera">
+                    <div class="col-3 text-center px-2 mb-3">
+                        <button href="#" class="btn btn-asistencia px-0">
+                            <img src="img/icons/ruidos.svg" class="my-2" alt="">
+                            <p class="mb-0 caption-btn-asistencia">Ruidos</p>
+                        </button>
+                    </div>
+                    <div class="col-3 text-center px-2 mb-3">
+                        <button href="ascensor1.html" class="btn btn-asistencia px-0">
+                            <img src="img/icons/ascensor.svg" class="my-2" alt="">
+                            <p class="mb-0 caption-btn-asistencia">Ascensor</p>
+                        </button>
+                    </div>
+                    <div class="col-3 text-center px-2 mb-3">
+                        <button href="#" class="btn btn-asistencia px-0">
+                            <img src="img/icons/sum.svg" class="my-2" alt="">
+                            <p class="mb-0 caption-btn-asistencia">SUM</p>
+                        </button>
+                    </div>
+                    <div class="col-3 text-center px-2 mb-3">
+                        <button href="#" class="btn btn-asistencia px-0">
+                            <img src="img/icons/humedad.svg" class="my-2" alt="">
+                            <p class="mb-0 caption-btn-asistencia">Humedad</p>
+                        </button>
+                    </div>
                 </div>
-                <div class="col-3 text-center px-2 mb-3">
-                    <button href="ascensor1.html" class="btn btn-asistencia px-0">
-                        <img src="img/icons/ascensor.svg" class="my-2" alt="">
-                        <h3 class="mb-0 caption-btn-asistencia">Urgencia</h3>
-                        <p class="mb-0 caption-btn-asistencia">Llamar al 107</p>
-                    </button>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="bold my-4 float-left low-bottom">Agenda</h2>
+                    <a href="asistencia.html" class="float-right btn-vermas vermas-index">Ver todo<span><img src="img/icons/chevron_right_dark.svg" alt="" class="icon-vermas"/></span></a>
                 </div>
-                <div class="col-3 text-center px-2 mb-3">
-                    <button href="#" class="btn btn-asistencia px-0">
-                        <img src="img/icons/sum.svg" class="my-2" alt="">
-                        <h3 class="mb-0 caption-btn-asistencia">Robo</h3>
-                        <p class="mb-0 caption-btn-asistencia">Llamar al 9110</p>
-                    </button>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-11">
+                    <p class="h5">Reserva SUM</p>
+                    <p class="mb-1">¡Cumple Susana del 5D!</p>
+                    <p>Lunes 17 de Diciembre de 12 a 16 horas.</p>
                 </div>
-    </main>
+                <div class="col-1 pt-4">
+                    <a onclick="window.location.href='asistencia.html'; return false;" class=""><img width="10px;" src="img/icons/chevron_right_dark.svg" alt=""><span class="sr-only">Ver más del evento</span></a>
+                </div>
+            </div>
+            <hr>
+            <p>Mantenimiento</p>
+            <p>Fumigación</p>
+            <p>Martes 18/12 • 15-20 hs</p>
+            <button onclick="window.location.href='asistencia.html'; return false;" aria-label="Ver más del evento"> > </button>
+            <hr>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.bundle.js"></script>
-</body>
+            <h2>Emergencias</h2>
+            <div class="col-3 text-center px-2 mb-3">
+                <button href="#" class="btn btn-asistencia px-0">
+                    <img src="img/icons/ruidos.svg" class="my-2" alt="">
+                    <h3 class="mb-0 caption-btn-asistencia">Incendio</h3>
+                    <p class="mb-0 caption-btn-asistencia">Llamar al 100</p>
+                </button>
+            </div>
+            <div class="col-3 text-center px-2 mb-3">
+                <button href="ascensor1.html" class="btn btn-asistencia px-0">
+                    <img src="img/icons/ascensor.svg" class="my-2" alt="">
+                    <h3 class="mb-0 caption-btn-asistencia">Urgencia</h3>
+                    <p class="mb-0 caption-btn-asistencia">Llamar al 107</p>
+                </button>
+            </div>
+            <div class="col-3 text-center px-2 mb-3">
+                <button href="#" class="btn btn-asistencia px-0">
+                    <img src="img/icons/sum.svg" class="my-2" alt="">
+                    <h3 class="mb-0 caption-btn-asistencia">Robo</h3>
+                    <p class="mb-0 caption-btn-asistencia">Llamar al 9110</p>
+                </button>
+            </div>
+        </main>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.bundle.js"></script>
+    </body>
 
 </html>
