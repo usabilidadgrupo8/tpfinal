@@ -306,10 +306,14 @@ a:hover {
     min-width: 125px;
 }
 .btn-urgencia {
-    
 }
 .p {
     color: black;
+}
+.btn-nuevomensaje {
+    background-color: none;
+    border: none;
+    background: none;
 }
 
 
