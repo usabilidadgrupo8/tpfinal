@@ -341,6 +341,10 @@ a:hover {
 }
 .time-conversation {
     font-size: 12px;
+    color: gray;
+}
+.no-activo {
+    background-color: lightgrey;
 }
 
 
