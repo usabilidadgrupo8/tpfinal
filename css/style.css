@@ -346,8 +346,12 @@ a:hover {
 .no-activo {
     background-color: lightgrey;
 }
-
-
+.bg-lightviolet {
+    background-color: rgba(85, 75, 200, 0.17);
+}
+.a-chats {
+    color: black;
+}
 
 
 
