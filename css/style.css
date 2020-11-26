@@ -368,7 +368,7 @@ a:hover {
 }
 .border-collapse {
     border-radius: 10px 10px 0px 0px;
-    margin-bottom: 65px;
+    margin-bottom: 105px;
 }
 .border-collapse button {
     color: white !important;
@@ -381,7 +381,7 @@ a:hover {
     transform: rotate(90deg);
 }
 .icono-rotado {
-    transform: rotate(180deg)
+    transform: rotate(180deg);
 }
 .txt-white {
     color: white;
