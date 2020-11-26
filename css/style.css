@@ -352,13 +352,40 @@ a:hover {
 .a-chats {
     color: black;
 }
-
-
-
-
-
-
-
+.trasladoabajo {
+    transform: translateY(10px);
+    vertical-align: middle;
+}
+.form-input-mensaje {
+    border: none;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.32);
+}
+.control-width {
+    width: 100%;
+}
+.and-send {
+    height: 40px;
+}
+.border-collapse {
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 65px;
+}
+.border-collapse button {
+    color: white !important;
+}
+.border-collapse button:hover {
+    color: white !important;
+    text-decoration: none;
+}
+.rotada-arriba {
+    transform: rotate(90deg);
+}
+.icono-rotado {
+    transform: rotate(180deg)
+}
+.txt-white {
+    color: white;
+}
 
 
 
