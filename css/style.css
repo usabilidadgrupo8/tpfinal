@@ -392,8 +392,51 @@ a:hover {
 .bottom-large {
     margin-bottom: 160px;
 }
-
-
-
+.glovodetexto {
+    margin-top: 10px;
+    padding-top: 5px;
+    background-color: #554BC8;
+    color: white;
+    border-radius: 10px;
+}
+.globo-time {
+    color: rgba(255, 255, 255, 0.71);
+    margin-bottom: 5px;
+}
+.sb1:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 12px solid #554BC8;
+    border-right: 12px solid transparent;
+    border-top: 10px solid #554BC8;
+    border-bottom: 10px solid transparent;
+    right: -19px;
+    top: 6px;
+    border-radius: 5px; 
+}
+.sb2:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 12px solid transparent;
+    border-right: 12px solid #E5E4FF;
+    border-top: 10px solid #E5E4FF;
+    border-bottom: 10px solid transparent;
+    left: -19px;
+    top: 6px;
+    border-radius: 5px; 
+}
+.moved-right {
+    transform: translateX(10px);
+}.moved-right-2 {
+    transform: translateX(20px);
+}
+.rta {
+    background-color: #E5E4FF;
+    color: #554BC8;
+}
 
 
