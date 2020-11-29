@@ -18,44 +18,41 @@
     </head>
 
     <body>
-
         <!--NAVIGATION BAR-->
         <nav class="fixed-bottom navbar-white py-2 light-shadow">
-            <div class="row text-center mx-2">
-                <div class="col active"><a href="index.html" tabindex="-1"><img alt="" class="d-block icon-nav" src="img/icons/inicio-act.svg" />Inicio</a></div>
+            <ul class="row text-center mx-2 ul-nav">
+                <li class="col active"><a aria-current="page" tabindex="-1" href="#"><img alt="" class="icon-nav" src="img/icons/inicio-act.svg" /><p class="uppercase">Inicio</p></a></li>
 
-                <div class="col"><a href="asistencia.html" class="inactive"><img alt="" class="d-block icon-nav" src="img/icons/asistencia-nav-inac.svg" />Asistencia</a></div>
+                <li class="col"><a href="asistencia.html" class="inactive"><img alt="" class="d-block icon-nav" src="img/icons/asistencia-nav-inac.svg" /><p>Asistencia</p></a></li>
 
-                <div class="col"><a href="Chat-1.html"class="inactive"><img alt="" class="d-block icon-nav" src="img/icons/chat-nav.svg" />Chat</a></div>
+                <li class="col"><a href="chat/chatindex.html" class="inactive"><img alt="" class="d-block icon-nav" src="img/icons/chat-nav.svg" /><p>Chat</p></a></li>
 
-                <div class="col"><a href="perfil.html" class="inactive"><img alt="" class="d-block icon-nav" src="img/icons/perfil-nav.svg" />Perfil</a></div>
-            </div>
+                <li class="col"><a href="perfil.html" class="inactive"><img alt="" class="d-block icon-nav" src="img/icons/perfil-nav.svg" /><p>Perfil</p></a></li>
+            </ul>
         </nav>
-
-
-        <div class="container-fluid main py-3">
+        <header class="container-fluid main py-3">
             <h1 class="h5 white">Edificio Villa Urquiza 2313</h1>
             <p class="white h2">¡Buenos días, Mariana!</p>
             <p class="white">Este es el estado del edificio hoy:</p>
             <hr class="hr-darkbg" aria-hidden="true">
-            <p class="mt-3 mb-1 white"><span><img src="img/icons/refresh_02.svg" alt="" class="tilde"></span>Hay un problema en curso</p>
             <ul>
                 <li class="white li-card">
+                    <p class="mt-3 mb-1 white"><span><img src="img/icons/refresh_02.svg" alt="" class="tilde"></span>Hay un problema en curso</p>
                     <div class="row white-card-bg mx-0 pb-1">
                         <div class="col-2 text-right">
                             <img src="img/icons/ascensor.svg" alt="" class="icon-ascensor">
                         </div>
-                        <div class="col-10 pl-0">
-                            <p class="h4 text-violet subtitle">ASCENSOR</p>
-                            <p class="p">La puerta no cierra correctamente.</p>
+                        <div class="col-10 pl-0" aria-labelledby="ascensor" aria-describedby="ascensordescripcion">
+                            <p class="h4 text-violet subtitle" id="ascensor">ASCENSOR</p>
+                            <p class="p" id="ascensordescripcion">La puerta no cierra correctamente.</p>
                             <p class="float-left grey-color">Hace 30 minutos</p>
-                            <a href="problemaencursodesdeindex.html" class="float-right btn-vermas">Ver más<span><img src="img/icons/chevron_right_dark.svg" alt="" class="icon-vermas"/></span></a>
+                            <a aria-describedby="ascensor" href="problemaencursodesdeindex.html" class="float-right btn-vermas">Ver más<span><img src="img/icons/chevron_right_dark.svg" alt="" class="icon-vermas"/></span></a>
                         </div>
                     </div>
                 </li>
                 <li class="white li-card mt-2"><span><img src="img/icons/calendar_check.svg" alt="" class="tilde"></span><strong>Próximo mantenimiento:</strong> Fumigación 18 de Diciembre a las 15:00.</li>
             </ul>
-        </div>
+        </header>
         <main class="container">
             <div class="row">
                 <div class="col-12">
@@ -66,13 +63,13 @@
             <div class="botonera mt-4">
                 <div class="row botonera">
                     <div class="col-3 text-center px-2 mb-3">
-                        <button href="#" class="btn btn-asistencia px-0">
+                        <button onclick="location.href='chat/chatindex_4_2.html'" class="btn btn-asistencia px-0">
                             <img src="img/icons/ruidos.svg" class="my-2" alt="">
                             <p class="mb-0 caption-btn-asistencia">Ruidos</p>
                         </button>
                     </div>
                     <div class="col-3 text-center px-2 mb-3">
-                        <button href="ascensor1.html" class="btn btn-asistencia px-0">
+                        <button onclick="location.href='ascensor1.html'" class="btn btn-asistencia px-0">
                             <img src="img/icons/ascensor.svg" class="my-2" alt="">
                             <p class="mb-0 caption-btn-asistencia">Ascensor</p>
                         </button>
@@ -101,23 +98,32 @@
                 <hr aria-hidden="true">
                 <div class="row">
                     <div class="col-11">
-                        <p class="h5 text-violet" id="head_sum">Reserva SUM</p>
-                        <p class="mb-1">¡Cumple Susana del 5D!</p>
-                        <p>Lunes 17 de Diciembre de 12 a 16 horas.</p>
+                        <h3 class="h6 text-violet">Calendario de reservas del SUM</h3>
+                        <a href="#" class="mb-1 h4 black" aria-describedby="desc-agenda1" id="head_sum1">¡Cumple Susana del 5D!</a>
+                        <p id="desc-agenda1">Lunes 17 de Diciembre de 12 a 16 horas.</p>
                     </div>
                     <div class="col-1 pt-4">
-                        <a href="#" class="" aria-describedby="head_sum"><img width="10px;" src="img/icons/chevron_right_dark.svg" alt=""><span class="sr-only">Ver más del evento</span></a>
+                        <a href="#" class="" aria-describedby="head_sum1"><img width="10px;" src="img/icons/chevron_right_dark.svg" alt=""><span class="sr-only">Leer más sobre</span></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-11">
+                        <a href="#" class="mb-1 h4 black" aria-describedby="desc-agenda2" id="head_sum2">Aniversario de Victor y Ana</a>
+                        <p id="desc-agenda2">Lunes 21 de Diciembre de 19 a 23 horas.</p>
+                    </div>
+                    <div class="col-1 pt-4">
+                        <a href="#" class="" aria-describedby="head_sum2"><img width="10px;" src="img/icons/chevron_right_dark.svg" alt=""><span class="sr-only">Leer más sobre</span></a>
                     </div>
                 </div>
                 <hr class="m-0 mb-3" aria-hidden="true">
                 <div class="row">
                     <div class="col-11">
-                        <p class="h5 text-violet" id="head_mantenimiento">Mantenimiento</p>
-                        <p class="mb-1">Fumigación</p>
-                        <p>Martes 18 de Diciembre de 15 a 20 horas.</p>
+                        <h3 class="h6 text-violet">Mantenimiento</h3>
+                        <a href="#" class="mb-1 h4 black" aria-describedby="desc-agenda3" id="head_sum3">Fumigación</a>
+                        <p id="desc-agenda3">Martes 18 de Diciembre de 15 a 20 horas.</p>
                     </div>
                     <div class="col-1 pt-4">
-                        <a href="#" class="" aria-describedby="head_mantenimiento"><img width="10px;" src="img/icons/chevron_right_dark.svg" alt=""><span class="sr-only">Ver más del evento</span></a>
+                        <a href="#" class="" aria-describedby="head_sum3"><img width="10px;" src="img/icons/chevron_right_dark.svg" alt=""><span class="sr-only">Leer más sobre</span></a>
                     </div>
                 </div>
                 <hr class="m-0" aria-hidden="true">

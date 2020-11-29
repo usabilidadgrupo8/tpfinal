@@ -40,9 +40,20 @@ h6 {
     width: 40%;
 }
 
-nav .active a {
+nav a p {
+    margin: 0
+}
+
+nav .active a p{
     color: #554BC8;
-    font-weight: 500;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    border: solid 2px;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top: none;
 }
 
 .main {
@@ -438,5 +449,47 @@ a:hover {
     background-color: #E5E4FF;
     color: #554BC8;
 }
+.text-chat4::value {
+    color: black !important;
+}
+.footer {
+    background-color: #e5e5e5;
+}
+.ul-nav {
+    list-style: none;
+    margin: 0;
+}
+.black {
+    color: black;
+}
+.asistance {
+    font-size: 12px;
+    padding: 0 4px !important;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
