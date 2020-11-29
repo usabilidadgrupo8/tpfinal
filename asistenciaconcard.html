@@ -19,12 +19,15 @@
 
         <!--NAVIGATION BAR-->
         <nav class="fixed-bottom navbar-white py-2 light-shadow">
-            <div class="row text-center mx-2">
-                <div class="col"><a href="index.html" class="inactive"><img alt="" class="d-block icon-nav" src="img/icons/inicio-nav.svg"/>Inicio</a></div>
-                <div class="col active"><a href="#" tabindex="-1"><img alt="" class="d-block icon-nav" src="img/icons/asistencia-nav.svg"/>Asistencia</a></div>
-                <div class="col"><a href="Chat-1.html" class="inactive"><img alt="" class="d-block icon-nav" src="img/icons/chat-nav.svg"/>Chat</a></div>
-                <div class="col"><a href="perfil.html" class="inactive"><img alt="" class="d-block icon-nav" src="img/icons/perfil-nav.svg"/>Perfil</a></div>
-            </div>
+            <ul class="row text-center mx-2 ul-nav">
+                <li class="col"><a href="index.html" class="inactive"><img alt="" class="icon-nav" src="img/icons/inicio-nav.svg" /><p>Inicio</p></a></li>
+
+                <li class="col active px-0"><a aria-current="page" tabindex="-1" href="#" class=""><img alt="" class="icon-nav" src="img/icons/asistencia-nav.svg" /><p class="asistance uppercase">Asistencia</p></a></li>
+
+                <li class="col"><a href="chat/chatindex.html" class="inactive"><img alt="" class="d-block icon-nav" src="img/icons/chat-nav.svg" /><p>Chat</p></a></li>
+
+                <li class="col"><a href="perfil.html" class="inactive"><img alt="" class="d-block icon-nav" src="img/icons/perfil-nav.svg" /><p>Perfil</p></a></li>
+            </ul>
         </nav>
         <div class="container-fluid main py-3">
             <h1 class="h5 white">Asistencia al vecino </h1>
@@ -48,11 +51,11 @@
                 <div class="col-2 text-right">
                     <img src="img/icons/ascensor.svg" alt="" class="icon-ascensor">
                 </div>
-                <div class="col-10 pl-0">
-                    <p class="h4 text-violet subtitle">ASCENSOR</p>
-                    <p>La puerta no cierra correctamente.</p>
+                <div class="col-10 pl-0" aria-labelledby="ascensor" aria-describedby="ascensordescripcion">
+                    <p class="h4 text-violet subtitle" id="ascensor">ASCENSOR</p>
+                    <p class="p" id="ascensordescripcion">La puerta no cierra correctamente.</p>
                     <p class="float-left grey-color">Hace 30 minutos</p>
-                    <a href="problemaencursodesdeindex.html" class="float-right btn-vermas">Ver más<span><img src="img/icons/chevron_right_dark.svg" alt="" class="icon-vermas"/></span></a>
+                    <a aria-describedby="ascensor" href="problemaencursodesdeindex.html" class="float-right btn-vermas">Ver más<span><img src="img/icons/chevron_right_dark.svg" alt="" class="icon-vermas"/></span></a>
                 </div>
             </div>
         </div>
@@ -62,7 +65,7 @@
                 <h3 class="title-botonera">Convivencia</h3>
                 <div class="row botonera">
                     <div class="col-3 text-center px-2 mb-3">
-                        <button href="#" class="btn btn-asistencia px-0">
+                        <button onclick="location.href='/chat/chatindex_4_2.html'" href="#" class="btn btn-asistencia px-0">
                             <img src="img/icons/ruidos.svg" class="my-2" alt="">
                             <p class="mb-0 caption-btn-asistencia">Ruidos</p>
                         </button>
@@ -109,7 +112,7 @@
                 <h3 class="title-botonera">Espacios Comunes</h3>
                 <div class="row botonera">
                     <div class="col-3 text-center px-2 mb-3">
-                            <button onclick="location.href='ascensor1.html'" class="btn btn-asistencia px-0">
+                        <button onclick="location.href='ascensor1.html'" class="btn btn-asistencia px-0">
                             <img src="img/icons/ascensor.svg" class="my-2" alt="">
                             <p class="mb-0 caption-btn-asistencia">Ascensor</p>
                         </button>

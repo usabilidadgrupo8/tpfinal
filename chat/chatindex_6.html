@@ -23,7 +23,7 @@
                 </a>
                 <a class="a-chats" href="chatindex_3.html">
                     <span><img src="img_chat/Chat-2/Card/Carlos.png" alt="" width="40px" class="mb-1"/></span>
-                    <p class="h5 ml-2 d-inline white trasladoabajo"><strong>2 B</strong> Carlos</p>
+                    <p class="h5 ml-2 d-inline white trasladoabajo" id="personaconver"><strong>2 B</strong> Carlos</p>
                 </a>
             </div>
         </div>
@@ -39,7 +39,7 @@
                 </div>
             </div>
             <div class="row" tabindex="1">
-                <div class="col-10 glovodetexto rta sb2 moved-right-2">
+                <div class="col-10 glovodetexto rta sb2 moved-right-2" id="globo-chat" tabindex="-1"><span class="sr-only" aria-describedby="personaconver">Nuevo Mensaje de</span>
                     <p class="mb-1">Hola Mariana! Si, por supuesto! Ahora bajo el volumen. Si tenés ganas pasate! TENEMOS KARAOKE! 😂🎤</p>
                     <p class="text-right globo-time rta">20:32 <span class="sr-only">Recibido</span></p>
                 </div>
@@ -79,5 +79,10 @@
         </main>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="../js/bootstrap.bundle.js"></script>
+        <script>
+            window.onload = function() {
+                document.getElementById("globo-chat").focus();
+            };
+        </script>
     </body>
 </html>
