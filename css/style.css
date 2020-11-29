@@ -7,7 +7,7 @@ body {
 }
 
 .light-shadow {
-    box-shadow: 0px -5px 15px rgba(128, 128, 128, 0.08);
+    box-shadow: 0px -5px 15px rgba(128, 128, 128, 0.38);
 }
 
 .navbar-white .inactive {
