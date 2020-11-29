@@ -89,7 +89,11 @@ button {
 }
 
 .btn-asistencia:focus {
-    background-color: #554BC8;
+    background-color: #554BC8 !important;    
+    color: white !important;
+}
+.btn-asistencia:active {
+    background-color: #554BC8 !important;    
     color: white !important;
 }
 
