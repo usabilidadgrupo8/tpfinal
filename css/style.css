@@ -88,6 +88,11 @@ button {
     min-width: 80px;
 }
 
+.btn-asistencia:focus {
+    background-color: #554BC8;
+    color: white !important;
+}
+
 .caption-btn-asistencia {
     font-size: 10pt;
     font-weight: 500;
