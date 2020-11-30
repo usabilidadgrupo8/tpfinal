@@ -19,7 +19,7 @@
 
     <body>
         <!--NAVIGATION BAR-->
-        <nav class="fixed-bottom navbar-white py-2 light-shadow">
+        <nav class="fixed-bottom navbar-white py-2 light-shadow" role="navigation">
             <ul class="row text-center mx-2 ul-nav">
                 <li class="col active"><a aria-current="page" tabindex="-1"><img alt="" class="icon-nav" src="img/icons/inicio-act.svg" /><p class="uppercase">Inicio</p></a></li>
 
@@ -32,8 +32,8 @@
         </nav>
         <header class="container-fluid main py-3">
             <h1 class="h5 white">Edificio Villa Urquiza 2313</h1>
-            <p class="white h2">¡Buenos días, Mariana!</p>
-            <p class="white">Este es el estado del edificio hoy:</p>
+            <h2 class="white h2">¡Buenos días, Mariana!</h2>
+            <h3 class="white">Este es el estado del edificio hoy:</h3>
             <hr class="hr-darkbg" aria-hidden="true">
             <ul>
                 <li class="white li-card">
@@ -53,7 +53,7 @@
                 <li class="white li-card mt-2"><span><img src="img/icons/calendar_check.svg" alt="" class="tilde"></span><strong>Próximo mantenimiento:</strong> Fumigación 18 de Diciembre a las 15:00.</li>
             </ul>
         </header>
-        <main class="container">
+        <main class="container" role="main">
             <div class="row">
                 <div class="col-12">
                     <h2 id="asistance" class="bold my-4 float-left low-bottom">Asistencia al vecino</h2>
@@ -150,7 +150,7 @@
                 </div>
             </div>
         </main>
-         <footer class="container long-bottom mt-4 footer py-4">
+         <footer class="container long-bottom mt-4 footer py-4" role="contentinfo">
             <a href="declaracion.html" class="ml-2 text-violet mt-3">Accesibilidad</a>
         </footer>
 
